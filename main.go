@@ -15,14 +15,4 @@ func main() {
     macComputer.setPrinter(epsonPrinter)
     macComputer.print()
     fmt.Println()
-
-    winComputer := &windows{}
-
-    winComputer.setPrinter(hpPrinter)
-    winComputer.print()
-    fmt.Println()
-
-    winComputer.setPrinter(epsonPrinter)
-    winComputer.print()
-    fmt.Println()
 }
